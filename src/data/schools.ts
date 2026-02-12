@@ -603,7 +603,7 @@ export const schools: School[] = [
   {
     id: 'edinburgh-cybersec',
     name: 'University of Edinburgh',
-    countryId: 'uk',
+    countryId: 'scotland',
     city: 'Edinburgh',
     program: 'MSc Cyber Security, Privacy and Trust',
     field: 'cybersec',
@@ -623,7 +623,7 @@ export const schools: School[] = [
   {
     id: 'glasgow-cybersec',
     name: 'University of Glasgow',
-    countryId: 'uk',
+    countryId: 'scotland',
     city: 'Glasgow',
     program: 'MSc Cyber Security',
     field: 'cybersec',
@@ -643,7 +643,7 @@ export const schools: School[] = [
   {
     id: 'strathclyde-cybersec',
     name: 'University of Strathclyde',
-    countryId: 'uk',
+    countryId: 'scotland',
     city: 'Glasgow',
     program: 'MSc Cyber Security',
     field: 'cybersec',
@@ -663,7 +663,7 @@ export const schools: School[] = [
   {
     id: 'edinburgh-mba',
     name: 'University of Edinburgh Business School',
-    countryId: 'uk',
+    countryId: 'scotland',
     city: 'Edinburgh',
     program: 'Full-Time MBA',
     field: 'mba',
@@ -683,7 +683,7 @@ export const schools: School[] = [
   {
     id: 'strathclyde-mba',
     name: 'University of Strathclyde Business School',
-    countryId: 'uk',
+    countryId: 'scotland',
     city: 'Glasgow',
     program: 'Full-Time MBA',
     field: 'mba',

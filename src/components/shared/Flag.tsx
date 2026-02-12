@@ -7,6 +7,8 @@ import SG from 'country-flag-icons/react/3x2/SG';
 import NO from 'country-flag-icons/react/3x2/NO';
 import DE from 'country-flag-icons/react/3x2/DE';
 import GB from 'country-flag-icons/react/3x2/GB';
+// @ts-expect-error — GB-SCT subdivision flag exists but no dedicated type export
+import GBSCT from 'country-flag-icons/react/3x2/GB-SCT';
 import US from 'country-flag-icons/react/3x2/US';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const flagMap: Record<string, React.ComponentType<any>> = {
@@ -19,6 +21,7 @@ const flagMap: Record<string, React.ComponentType<any>> = {
   norway: NO,
   germany: DE,
   uk: GB,
+  scotland: GBSCT,
   usa: US,
 };
 

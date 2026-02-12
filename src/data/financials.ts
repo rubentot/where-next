@@ -44,6 +44,7 @@ export const countryTaxRates: Record<string, number> = {
   singapore: 0.15,
   germany: 0.40,
   uk: 0.30,
+  scotland: 0.30,
   usa: 0.28,
   norway: 0.34,
 };
