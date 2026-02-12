@@ -6,6 +6,7 @@ import EE from 'country-flag-icons/react/3x2/EE';
 import SG from 'country-flag-icons/react/3x2/SG';
 import NO from 'country-flag-icons/react/3x2/NO';
 import DE from 'country-flag-icons/react/3x2/DE';
+import GB from 'country-flag-icons/react/3x2/GB';
 import US from 'country-flag-icons/react/3x2/US';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const flagMap: Record<string, React.ComponentType<any>> = {
@@ -17,6 +18,7 @@ const flagMap: Record<string, React.ComponentType<any>> = {
   singapore: SG,
   norway: NO,
   germany: DE,
+  uk: GB,
   usa: US,
 };
 
