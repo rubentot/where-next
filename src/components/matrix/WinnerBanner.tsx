@@ -7,7 +7,7 @@ export function WinnerBanner() {
   if (!winner) return null;
 
   const pct = ((winner.totalScore / maxPossible) * 100).toFixed(0);
-  const viewLabel = viewMode === 'his' ? 'His pick' : viewMode === 'hers' ? 'Her pick' : 'Your pick together';
+  const viewLabel = viewMode === 'his' ? 'Ruben\'s pick' : viewMode === 'hers' ? 'Charlotte\'s pick' : 'Your pick together';
 
   return (
     <div className="animate-pulse-winner bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl p-6 text-white shadow-lg">

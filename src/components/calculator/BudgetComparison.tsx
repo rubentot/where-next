@@ -62,11 +62,11 @@ export function BudgetComparison() {
             <span>{fmt(calc.norwayMonthlyExpenses)}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-gray-500">His net (cybersec)</span>
+            <span className="text-gray-500">Ruben net (cybersec)</span>
             <span className="font-medium">{fmt(calc.norwayCybersecNet)}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-gray-500">Her net (MBA)</span>
+            <span className="text-gray-500">Charlotte net (MBA)</span>
             <span className="font-medium">{fmt(calc.norwayMbaNet)}</span>
           </div>
           <div className="flex justify-between text-sm font-semibold">
@@ -104,11 +104,11 @@ export function BudgetComparison() {
             <span>{fmtCountry(calc.countryMonthlyEUR)}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-gray-500">His net (cybersec)</span>
+            <span className="text-gray-500">Ruben net (cybersec)</span>
             <span className="font-medium">{fmtCountry(calc.countryCybersecNetEUR)}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-gray-500">Her net (MBA)</span>
+            <span className="text-gray-500">Charlotte net (MBA)</span>
             <span className="font-medium">{fmtCountry(calc.countryMbaNetEUR)}</span>
           </div>
           <div className="flex justify-between text-sm font-semibold">
@@ -120,7 +120,7 @@ export function BudgetComparison() {
             <span className="font-medium text-danger-600">-{fmt(calc.monthlyPayment)}</span>
           </div>
           <div className="text-xs text-gray-400">
-            His: {calc.countryCybersecSalaryEUR.toLocaleString()} EUR/yr | Hers: {calc.countryMbaSalaryEUR.toLocaleString()} EUR/yr | Tax: {(calc.countryTax * 100).toFixed(0)}%
+            Ruben: {calc.countryCybersecSalaryEUR.toLocaleString()} EUR/yr | Charlotte: {calc.countryMbaSalaryEUR.toLocaleString()} EUR/yr | Tax: {(calc.countryTax * 100).toFixed(0)}%
           </div>
           <hr className="border-gray-200" />
           <div className={`flex justify-between text-sm font-bold ${calc.countrySavingsNOK >= 0 ? 'text-success-600' : 'text-danger-600'}`}>

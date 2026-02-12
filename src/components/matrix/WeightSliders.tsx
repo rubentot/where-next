@@ -7,8 +7,8 @@ export function WeightSliders() {
   const { viewMode, setViewMode, weightsHis, setWeightsHis, weightsHers, setWeightsHers } = useApp();
 
   const views: { id: ViewMode; label: string; emoji: string }[] = [
-    { id: 'his', label: 'His', emoji: '👨' },
-    { id: 'hers', label: 'Hers', emoji: '👩' },
+    { id: 'his', label: 'Ruben', emoji: '👨' },
+    { id: 'hers', label: 'Charlotte', emoji: '👩' },
     { id: 'combined', label: 'Combined', emoji: '💑' },
   ];
 
@@ -45,7 +45,7 @@ export function WeightSliders() {
       </div>
 
       {viewMode === 'combined' && (
-        <p className="text-xs text-gray-400">In combined mode, sliders adjust His weights. Switch to Her to adjust hers.</p>
+        <p className="text-xs text-gray-400">In combined mode, sliders adjust Ruben's weights. Switch to Charlotte to adjust hers.</p>
       )}
 
       <div className="space-y-3">

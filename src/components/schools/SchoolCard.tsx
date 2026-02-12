@@ -20,7 +20,7 @@ export function SchoolCard({ school }: SchoolCardProps) {
     s => s.field === otherField && getLocation(s) === location
   );
   const hasPartner = partnerSchools.length > 0;
-  const partnerLabel = school.field === 'cybersec' ? 'Her MBA' : 'His cybersec';
+  const partnerLabel = school.field === 'cybersec' ? 'Charlotte\'s MBA' : 'Ruben\'s cybersec';
   const locationLabel = getLocationLabel(school);
 
   return (

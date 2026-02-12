@@ -39,7 +39,7 @@ export function StudyTogetherView() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div>
               <h4 className="text-sm font-semibold text-primary-600 mb-2 flex items-center gap-1">
-                <Shield size={14} /> His — Cybersecurity
+                <Shield size={14} /> Ruben — Cybersecurity
               </h4>
               <div className="space-y-3">
                 {pair.cybersecSchools.map(s => (
@@ -50,7 +50,7 @@ export function StudyTogetherView() {
 
             <div>
               <h4 className="text-sm font-semibold text-accent-600 mb-2 flex items-center gap-1">
-                <Briefcase size={14} /> Hers — MBA
+                <Briefcase size={14} /> Charlotte — MBA
               </h4>
               <div className="space-y-3">
                 {pair.mbaSchools.map(s => (

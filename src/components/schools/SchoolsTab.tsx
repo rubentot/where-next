@@ -98,10 +98,10 @@ export function SchoolsTab() {
                 All Fields
               </FilterButton>
               <FilterButton active={fieldFilter === 'cybersec'} onClick={() => setFieldFilter('cybersec')}>
-                <Shield size={14} /> His — Cybersecurity
+                <Shield size={14} /> Ruben — Cybersecurity
               </FilterButton>
               <FilterButton active={fieldFilter === 'mba'} onClick={() => setFieldFilter('mba')}>
-                <Briefcase size={14} /> Hers — MBA
+                <Briefcase size={14} /> Charlotte — MBA
               </FilterButton>
             </div>
 
@@ -138,7 +138,7 @@ export function SchoolsTab() {
               {cybersecSchools.length > 0 && (
                 <div>
                   <h3 className="text-md font-bold text-gray-800 mb-3 flex items-center gap-2">
-                    <Shield size={18} className="text-primary-600" /> His — Cybersecurity Programs
+                    <Shield size={18} className="text-primary-600" /> Ruben — Cybersecurity Programs
                   </h3>
                   {isUSA ? <StateGroupedGrid list={cybersecSchools} /> : <SchoolGrid list={cybersecSchools} />}
                 </div>
@@ -146,7 +146,7 @@ export function SchoolsTab() {
               {mbaSchools.length > 0 && (
                 <div>
                   <h3 className="text-md font-bold text-gray-800 mb-3 flex items-center gap-2">
-                    <Briefcase size={18} className="text-accent-600" /> Hers — MBA Programs
+                    <Briefcase size={18} className="text-accent-600" /> Charlotte — MBA Programs
                   </h3>
                   {isUSA ? <StateGroupedGrid list={mbaSchools} /> : <SchoolGrid list={mbaSchools} />}
                 </div>

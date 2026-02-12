@@ -3,8 +3,8 @@ import type { Category, Weights } from '../types';
 export const categories: Category[] = [
   { id: 'climate', label: 'Climate', icon: 'Sun', description: 'Weather, temperature, sunshine' },
   { id: 'costOfLiving', label: 'Cost of Living', icon: 'Wallet', description: 'Rent, food, daily expenses' },
-  { id: 'careerHis', label: 'Career (His)', icon: 'Shield', description: 'Cybersecurity job market & salary' },
-  { id: 'careerHers', label: 'Career (Hers)', icon: 'Briefcase', description: 'MBA career prospects & salary' },
+  { id: 'careerHis', label: 'Career (Ruben)', icon: 'Shield', description: 'Cybersecurity job market & salary' },
+  { id: 'careerHers', label: 'Career (Charlotte)', icon: 'Briefcase', description: 'MBA career prospects & salary' },
   { id: 'lifestyle', label: 'Lifestyle', icon: 'Heart', description: 'Nightlife, outdoors, culture, food' },
   { id: 'language', label: 'Language', icon: 'Languages', description: 'English friendliness, barrier' },
   { id: 'distance', label: 'Distance', icon: 'Plane', description: 'Travel time to Norway' },
