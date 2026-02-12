@@ -134,7 +134,7 @@ function DegreeCostSection({ school }: { school: School }) {
           <span>{fmt(cost.totalCostNOK)}</span>
         </div>
         <div className="flex justify-between">
-          <span className="text-gray-500">Lanekassen support</span>
+          <span className="text-gray-500">Lånekassen support</span>
           <span className="font-medium text-green-600">-{fmt(cost.lanekassenTotalProgram)}</span>
         </div>
         {cost.lanekassenExtendedPerYear > 0 && (

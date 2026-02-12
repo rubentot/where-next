@@ -12,7 +12,7 @@ export function LoanInputs() {
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 space-y-4">
-      <h3 className="font-semibold text-gray-800">Lanekassen Debt</h3>
+      <h3 className="font-semibold text-gray-800">Lånekassen Debt</h3>
 
       <SliderInput
         label="Current debt"

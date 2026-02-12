@@ -16,7 +16,7 @@ export const schools: School[] = [
     highlights: [
       'Norway\'s top cybersec program',
       'CCIS (Centre for Cyber & Information Security)',
-      'Free tuition — Lanekassen-approved',
+      'Free tuition — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'April 15',
@@ -35,7 +35,7 @@ export const schools: School[] = [
     highlights: [
       'Specialization in security track',
       'Strong research environment',
-      'Free tuition — Lanekassen-approved',
+      'Free tuition — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'April 15',
@@ -53,7 +53,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top public business school in Norway',
     highlights: [
-      'Free tuition — Lanekassen-approved',
+      'Free tuition — Lånekassen-approved',
       'No GMAT needed — Nordic bachelor\'s = exempt',
       'EQUIS accredited; top-tier in Nordics',
       'Strong alumni network in Norwegian business',
@@ -77,7 +77,7 @@ export const schools: School[] = [
     highlights: [
       'Hands-on cybersec labs',
       'Strong industry connections in Barcelona tech hub',
-      'Very affordable — Lanekassen-approved',
+      'Very affordable — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'June 30',
@@ -97,7 +97,7 @@ export const schools: School[] = [
     highlights: [
       'Intensive 10-month format',
       'Strong international network',
-      'Lanekassen-approved — but NOT on extended grant list (high tuition gap)',
+      'Lånekassen-approved — but NOT on extended grant list (high tuition gap)',
       'No GRE required',
     ],
     applicationDeadline: 'Rolling admissions',
@@ -116,7 +116,7 @@ export const schools: School[] = [
     ranking: 'Top 10 in Europe (FT)',
     highlights: [
       'No GMAT needed — accepts IE\'s own ieGAT test instead',
-      'Lanekassen-approved — but NOT on extended grant list (high tuition gap)',
+      'Lånekassen-approved — but NOT on extended grant list (high tuition gap)',
       'Very international cohort (90%+ international)',
       'Strong entrepreneurship & tech focus',
     ],
@@ -136,7 +136,7 @@ export const schools: School[] = [
     language: 'English / Spanish',
     ranking: 'Top 40 MBA in Europe (QS); dual degree with UPC',
     highlights: [
-      'No GMAT/GRE required — Lanekassen-approved',
+      'No GMAT/GRE required — Lånekassen-approved',
       'Barcelona campus — excellent quality of life',
       'Strong entrepreneurship & international business focus',
       'Multiple scholarship categories available',
@@ -160,7 +160,7 @@ export const schools: School[] = [
     highlights: [
       'Portugal\'s MIT — top technical university',
       'Cybersecurity specialization track',
-      'Very affordable — Lanekassen-approved',
+      'Very affordable — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'July',
@@ -179,7 +179,7 @@ export const schools: School[] = [
     highlights: [
       'Data + security intersection',
       'Growing reputation internationally',
-      'Affordable Lisbon living — Lanekassen-approved',
+      'Affordable Lisbon living — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'July',
@@ -198,7 +198,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Triple-accredited (AMBA, EPAS, FIBAA)',
     highlights: [
-      'No GMAT/GRE required — Lanekassen-approved',
+      'No GMAT/GRE required — Lånekassen-approved',
       'Dual-campus experience (Porto + Hannover)',
       'Portugal\'s most international MBA',
       'Porto: affordable, vibrant, growing tech scene',
@@ -221,7 +221,7 @@ export const schools: School[] = [
     ranking: 'Top technical university in Netherlands',
     highlights: [
       'World-class cybersecurity research group',
-      'EU tuition — very affordable — Lanekassen-approved',
+      'EU tuition — very affordable — Lånekassen-approved',
       'Close to The Hague (Europol, NATO)',
       'No GRE required',
     ],
@@ -242,7 +242,7 @@ export const schools: School[] = [
     highlights: [
       'Campus in The Hague — heart of international security',
       'Multidisciplinary: tech + governance + law',
-      'Direct proximity to Europol, OPCW, ICC — Lanekassen-approved',
+      'Direct proximity to Europol, OPCW, ICC — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'April 1',
@@ -261,7 +261,7 @@ export const schools: School[] = [
     ranking: 'Top 5 MBA in Europe (FT), AACSB & EQUIS',
     highlights: [
       'No GMAT needed — accepts RSM\'s own BAT test (free) instead',
-      'Lanekassen-approved — but NOT on extended grant list (high tuition gap)',
+      'Lånekassen-approved — but NOT on extended grant list (high tuition gap)',
       'Netherlands\' #1 MBA; very international (95%+ nationalities)',
       'Strong corporate partnerships (Shell, Unilever, Philips)',
     ],
@@ -284,7 +284,7 @@ export const schools: School[] = [
     highlights: [
       'Italy\'s top STEM university',
       'Cybersecurity specialization track',
-      'Extremely affordable — Lanekassen-approved',
+      'Extremely affordable — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'March',
@@ -303,7 +303,7 @@ export const schools: School[] = [
     ranking: 'EQUIS, AMBA & AACSB triple-accredited',
     highlights: [
       'No GMAT required',
-      'Lanekassen-approved — but NOT on extended grant list (high tuition gap)',
+      'Lånekassen-approved — but NOT on extended grant list (high tuition gap)',
       'Triple-accredited (EQUIS, AMBA & AACSB)',
       'Engineering school\'s MBA — strong tech/innovation focus',
     ],
@@ -324,7 +324,7 @@ export const schools: School[] = [
     ranking: 'Top business school in Rome; Luiss University',
     highlights: [
       'No GMAT required — in-house assessment instead',
-      'Lanekassen-approved',
+      'Lånekassen-approved',
       'Rome campus — central Italy business network',
       'Merit-based scholarships (up to full tuition waiver)',
     ],
@@ -344,7 +344,7 @@ export const schools: School[] = [
     ranking: 'Part of Alma Mater Studiorum (oldest university in the world)',
     highlights: [
       'No GMAT required — aptitude test instead',
-      'Lanekassen-approved',
+      'Lånekassen-approved',
       'Unique tracks: Food & Wine, Green Energy, Motorsports',
       'Bologna: affordable, UNESCO heritage, Italy\'s food capital',
     ],
@@ -366,7 +366,7 @@ export const schools: School[] = [
     ranking: 'Home of NATO CCDCOE',
     highlights: [
       'Directly connected to NATO Cooperative Cyber Defence Centre',
-      'Free tuition for EU citizens — Lanekassen-approved',
+      'Free tuition for EU citizens — Lånekassen-approved',
       'Estonia is a global e-governance leader',
       'No GRE required',
     ],
@@ -386,7 +386,7 @@ export const schools: School[] = [
     highlights: [
       'Unique tech + policy combination',
       'Joint degree — two Estonian universities',
-      'Free tuition for EU citizens — Lanekassen-approved',
+      'Free tuition for EU citizens — Lånekassen-approved',
       'No GRE required',
     ],
     applicationDeadline: 'May 1',
@@ -404,7 +404,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Oldest private business school in Baltics',
     highlights: [
-      'No GMAT/GRE required — Lanekassen-approved',
+      'No GMAT/GRE required — Lånekassen-approved',
       'Focus on entrepreneurship & digital business',
       'Small cohort, personalized experience',
       'Tallinn\'s startup ecosystem (Wise, Bolt, Pipedrive)',
@@ -426,7 +426,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: '#1 in Asia, top 10 globally',
     highlights: [
-      'Asia\'s top university — Lanekassen extended grant eligible',
+      'Asia\'s top university — Lånekassen extended grant eligible',
       'World-class cybersecurity research',
       'Gateway to APAC tech market',
       'No GRE required',
@@ -447,7 +447,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 15 globally',
     highlights: [
-      'Dedicated cybersec master\'s — Lanekassen extended grant eligible',
+      'Dedicated cybersec master\'s — Lånekassen extended grant eligible',
       'Intensive 1-year format',
       'Strong connections to Singapore\'s Smart Nation initiative',
       'No GRE required',
@@ -470,7 +470,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top for cybersec in Germany; home of Fraunhofer FKIE',
     highlights: [
-      'Free tuition — only ~€300 semester fee — Lanekassen-approved',
+      'Free tuition — only ~€300 semester fee — Lånekassen-approved',
       'Leading cybersec research (Fraunhofer FKIE partnership)',
       'No GRE required',
       'Bonn: former capital, close to Cologne, affordable city',
@@ -490,7 +490,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Home of CISPA Helmholtz Center — top cybersec research globally',
     highlights: [
-      'Free tuition — only ~€300 semester fee — Lanekassen-approved',
+      'Free tuition — only ~€300 semester fee — Lånekassen-approved',
       'CISPA: one of the world\'s top cybersec research centers',
       'No GRE required',
       'Small university town — very low cost of living',
@@ -510,7 +510,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: '#1 technical university in Germany; top 50 globally',
     highlights: [
-      'Germany\'s best technical university — Lanekassen-approved',
+      'Germany\'s best technical university — Lånekassen-approved',
       'Strong industry ties (Siemens, BMW, Munich Re)',
       'No GRE required',
       'Munich: high quality of life, but higher rent',
@@ -530,7 +530,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 3 MBA in Germany (FT); AACSB & EQUIS',
     highlights: [
-      'GMAT/GRE test-optional — Lanekassen-approved',
+      'GMAT/GRE test-optional — Lånekassen-approved',
       'Frankfurt: Europe\'s finance capital (ECB, Deutsche Bank)',
       'Strong finance & consulting career outcomes',
       'Triple-accredited (AACSB, EQUIS, AMBA)',
@@ -551,7 +551,7 @@ export const schools: School[] = [
     ranking: 'Top MBA in Germany (FT); founded by 25 leading MNCs',
     highlights: [
       'No GMAT needed — accepts ESMT\'s own BAT test instead',
-      'Lanekassen-approved',
+      'Lånekassen-approved',
       'Berlin: vibrant startup scene, affordable for a capital',
       'Founded by Siemens, Bosch, BMW & 22 other corporations',
     ],
@@ -572,7 +572,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'UK\'s oldest cybersec program; ACE-CSR accredited',
     highlights: [
-      'One of Europe\'s most established cybersec programs — Lanekassen-approved',
+      'One of Europe\'s most established cybersec programs — Lånekassen-approved',
       'GCHQ-certified; industry-recognised globally',
       'No GRE required',
       'Smart Card & IoT Security Centre partnership',
@@ -592,7 +592,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Russell Group; top 20 globally',
     highlights: [
-      'Central London campus — Lanekassen-approved',
+      'Central London campus — Lånekassen-approved',
       'Strong links to GCHQ, MI5, and defence sector',
       'No GRE required',
       'Focus on applied security: networks, crypto, software',
@@ -612,7 +612,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 5 in UK for CS; Russell Group',
     highlights: [
-      'ACE-CSR accredited — Lanekassen-approved',
+      'ACE-CSR accredited — Lånekassen-approved',
       'Significantly cheaper than London programs',
       'No GRE required',
       'Edinburgh: beautiful, affordable, growing tech scene',
@@ -632,7 +632,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Russell Group; top 100 globally',
     highlights: [
-      'ACE-CSR accredited — Lanekassen-approved',
+      'ACE-CSR accredited — Lånekassen-approved',
       'One of the cheapest UK cybersec master\'s',
       'No GRE required',
       'Glasgow: very affordable, vibrant student city',
@@ -652,7 +652,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 5 in Scotland for CS; strong industry links',
     highlights: [
-      'GCHQ-certified — Lanekassen-approved',
+      'GCHQ-certified — Lånekassen-approved',
       'Very affordable tuition',
       'No GRE required',
       'Strong placement into Scottish & UK government cyber roles',
@@ -672,7 +672,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 20 in UK; triple-accredited (AACSB, EQUIS, AMBA)',
     highlights: [
-      'GMAT/GRE optional — Lanekassen-approved',
+      'GMAT/GRE optional — Lånekassen-approved',
       'Edinburgh: UNESCO World Heritage city, growing fintech hub',
       'Small cohort (~60) = close-knit network',
       'Strong connections to Scottish financial sector',
@@ -692,7 +692,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Triple-accredited (AACSB, EQUIS, AMBA); top 10 UK MBA (Economist)',
     highlights: [
-      'No GMAT required — Lanekassen-approved',
+      'No GMAT required — Lånekassen-approved',
       'Cheapest triple-accredited MBA in the UK',
       'Glasgow: most affordable major UK city',
       'Strong international consulting project component',
@@ -712,7 +712,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 5 MBA in UK (FT); triple-accredited',
     highlights: [
-      'GMAT/GRE optional — Lanekassen-approved',
+      'GMAT/GRE optional — Lånekassen-approved',
       'STEM-designated MBA — strong tech & analytics focus',
       'South Kensington campus — heart of London',
       'Top employer access: McKinsey, Amazon, Google, Goldman Sachs',
@@ -732,7 +732,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 3 MBA in UK (Economist); triple-accredited',
     highlights: [
-      'GMAT/GRE optional — Lanekassen-approved',
+      'GMAT/GRE optional — Lånekassen-approved',
       'The Shard (London) campus for networking weeks',
       'Strong consulting & finance placements',
       '97% employed within 3 months of graduation',
@@ -752,7 +752,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 10 MBA in UK; triple-accredited',
     highlights: [
-      'No GMAT required — Lanekassen-approved',
+      'No GMAT required — Lånekassen-approved',
       'Small cohort (~80) = highly personalized',
       'Strong industry project with real companies',
       'Excellent ROI — lower tuition than London MBAs',
@@ -776,7 +776,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 5 in US; flagship UC campus',
     highlights: [
-      'No GRE required — Lanekassen extended grant eligible',
+      'No GRE required — Lånekassen extended grant eligible',
       'Combines policy, cryptography & systems security',
       'Silicon Valley network & career fairs',
       'Strong research ties to Lawrence Berkeley National Lab',
@@ -798,7 +798,7 @@ export const schools: School[] = [
     ranking: 'Top 15 MBA in US (US News)',
     highlights: [
       'Test-optional — no GMAT/GRE required',
-      'Lanekassen extended grant eligible',
+      'Lånekassen extended grant eligible',
       'LA location — entertainment, tech & media industries',
       'Great for tech, entertainment, and healthcare management careers',
     ],
@@ -821,7 +821,7 @@ export const schools: School[] = [
     ranking: 'Top 5 cybersec in the US',
     highlights: [
       'GRE optional (not required)',
-      'Lanekassen-approved — but NOT on extended grant list',
+      'Lånekassen-approved — but NOT on extended grant list',
       'One of the best cybersec programs in the world',
       'Also offers affordable online OMSCS option (~$7k total)',
     ],
@@ -842,7 +842,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 10 globally; NSA/DHS Center of Excellence',
     highlights: [
-      'No GRE required — Lanekassen extended grant eligible',
+      'No GRE required — Lånekassen extended grant eligible',
       'Proximity to NSA, CYBERCOM & DC defense contractors',
       'Applied Physics Lab (APL) partnership for cybersec research',
       'Strong placement into government & defense roles',
@@ -865,7 +865,7 @@ export const schools: School[] = [
     ranking: 'Top 40 MBA in US (US News); AACSB accredited',
     highlights: [
       'Test-optional — no GMAT/GRE required',
-      'Lanekassen extended grant eligible',
+      'Lånekassen extended grant eligible',
       'DC metro area — government, consulting & tech careers',
       'Strong analytics & digital innovation focus',
     ],
@@ -888,7 +888,7 @@ export const schools: School[] = [
     ranking: 'Top 20 MBA in US (US News, FT)',
     highlights: [
       'Test-optional — no GMAT/GRE required',
-      'Lanekassen extended grant eligible',
+      'Lånekassen extended grant eligible',
       'Small class size (~160) = personalized experience',
       'Strong in finance, consulting & healthcare management',
     ],
@@ -910,7 +910,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'NSA/DHS Center of Academic Excellence',
     highlights: [
-      'No GRE required — Lanekassen extended grant eligible',
+      'No GRE required — Lånekassen extended grant eligible',
       'NYC location — Wall Street & tech firm access',
       'CSAW (world\'s largest student-run cybersec event)',
       'Strong hands-on labs & CTF culture',
@@ -933,7 +933,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 10 CS school in US; flagship Texas university',
     highlights: [
-      'No GRE required — Lanekassen extended grant eligible',
+      'No GRE required — Lånekassen extended grant eligible',
       'Austin: booming tech hub (Tesla, Oracle, Dell)',
       'Very affordable tuition for a top-10 CS school',
       'NSA/DHS Center of Academic Excellence in Cyber Defense',
@@ -955,7 +955,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'AACSB accredited; Princeton Review recognized',
     highlights: [
-      'No GMAT/GRE required — Lanekassen-approved',
+      'No GMAT/GRE required — Lånekassen-approved',
       '9 concentrations (finance, analytics, marketing, etc.)',
       'San Antonio: affordable Texas city, growing tech scene',
       'Strong recruiter pipeline (Amazon, Microsoft, Deloitte)',
@@ -977,7 +977,7 @@ export const schools: School[] = [
     language: 'English',
     ranking: 'Top 10 CS in US; Pacific Northwest tech hub',
     highlights: [
-      'No GRE required — Lanekassen extended grant eligible',
+      'No GRE required — Lånekassen extended grant eligible',
       'Seattle: home of Amazon, Microsoft, Boeing',
       'Very affordable tuition for quality of program',
       'Applied cybersec focus with engineering emphasis',
@@ -1001,7 +1001,7 @@ export const schools: School[] = [
     ranking: 'Top 40 MBA in US; strong Midwest recruiting',
     highlights: [
       'Test-optional — no GMAT/GRE required',
-      'Lanekassen extended grant eligible',
+      'Lånekassen extended grant eligible',
       'Applied learning with real business projects',
       'Specializations in brand management, supply chain, real estate',
     ],
