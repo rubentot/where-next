@@ -761,14 +761,14 @@ export const schools: School[] = [
     url: 'https://www.cranfield.ac.uk/som/mba',
   },
 
-  // ─── USA (sorted by state) ────────────────────────────
+  // ─── USA (by state) ──────────────────────────────────
 
   // — California —
   {
     id: 'berkeley-cybersec',
     name: 'UC Berkeley School of Information',
-    countryId: 'usa',
-    city: 'Berkeley, CA',
+    countryId: 'california',
+    city: 'Berkeley',
     program: 'Master of Information and Cybersecurity (MICS)',
     field: 'cybersec',
     tuitionPerYear: 36000,
@@ -788,8 +788,8 @@ export const schools: School[] = [
   {
     id: 'ucla-mba',
     name: 'UCLA Anderson School of Management',
-    countryId: 'usa',
-    city: 'Los Angeles, CA',
+    countryId: 'california',
+    city: 'Los Angeles',
     program: 'Full-Time MBA',
     field: 'mba',
     tuitionPerYear: 65000,
@@ -811,8 +811,8 @@ export const schools: School[] = [
   {
     id: 'gatech-cybersec',
     name: 'Georgia Institute of Technology',
-    countryId: 'usa',
-    city: 'Atlanta, GA',
+    countryId: 'georgia',
+    city: 'Atlanta',
     program: 'MS in Cybersecurity',
     field: 'cybersec',
     tuitionPerYear: 28000,
@@ -833,8 +833,8 @@ export const schools: School[] = [
   {
     id: 'jhu-cybersec',
     name: 'Johns Hopkins University',
-    countryId: 'usa',
-    city: 'Baltimore, MD',
+    countryId: 'maryland',
+    city: 'Baltimore',
     program: 'MS in Security Informatics',
     field: 'cybersec',
     tuitionPerYear: 55000,
@@ -855,8 +855,8 @@ export const schools: School[] = [
   {
     id: 'umd-mba',
     name: 'University of Maryland — Smith School',
-    countryId: 'usa',
-    city: 'College Park, MD',
+    countryId: 'maryland',
+    city: 'College Park',
     program: 'Full-Time MBA',
     field: 'mba',
     tuitionPerYear: 58200,
@@ -878,8 +878,8 @@ export const schools: School[] = [
   {
     id: 'washu-olin-mba',
     name: 'Washington University in St. Louis — Olin',
-    countryId: 'usa',
-    city: 'St. Louis, MO',
+    countryId: 'missouri',
+    city: 'St. Louis',
     program: 'Full-Time MBA',
     field: 'mba',
     tuitionPerYear: 70250,
@@ -901,8 +901,8 @@ export const schools: School[] = [
   {
     id: 'nyu-cybersec',
     name: 'NYU Tandon School of Engineering',
-    countryId: 'usa',
-    city: 'New York, NY',
+    countryId: 'newyork',
+    city: 'New York City',
     program: 'MS in Cybersecurity',
     field: 'cybersec',
     tuitionPerYear: 38000,
@@ -924,8 +924,8 @@ export const schools: School[] = [
   {
     id: 'utaustin-cybersec',
     name: 'University of Texas at Austin',
-    countryId: 'usa',
-    city: 'Austin, TX',
+    countryId: 'texas',
+    city: 'Austin',
     program: 'MS in Identity Management and Security',
     field: 'cybersec',
     tuitionPerYear: 22000,
@@ -946,8 +946,8 @@ export const schools: School[] = [
   {
     id: 'utsa-mba',
     name: 'University of Texas at San Antonio (UTSA)',
-    countryId: 'usa',
-    city: 'San Antonio, TX',
+    countryId: 'texas',
+    city: 'San Antonio',
     program: 'MBA (Full-Time / Accelerated 11-month)',
     field: 'mba',
     tuitionPerYear: 20000,
@@ -968,8 +968,8 @@ export const schools: School[] = [
   {
     id: 'uw-cybersec',
     name: 'University of Washington',
-    countryId: 'usa',
-    city: 'Seattle, WA',
+    countryId: 'washington',
+    city: 'Seattle',
     program: 'MS in Cybersecurity Engineering',
     field: 'cybersec',
     tuitionPerYear: 20000,
@@ -991,8 +991,8 @@ export const schools: School[] = [
   {
     id: 'wisc-mba',
     name: 'University of Wisconsin — Wisconsin School of Business',
-    countryId: 'usa',
-    city: 'Madison, WI',
+    countryId: 'wisconsin',
+    city: 'Madison',
     program: 'Full-Time MBA',
     field: 'mba',
     tuitionPerYear: 51400,

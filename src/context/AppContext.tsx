@@ -32,7 +32,7 @@ interface AppState {
 
 const AppContext = createContext<AppState | null>(null);
 
-const allCountryIds = ['spain', 'portugal', 'netherlands', 'italy', 'estonia', 'singapore', 'germany', 'uk', 'scotland', 'usa', 'norway'];
+const allCountryIds = ['spain', 'portugal', 'netherlands', 'italy', 'estonia', 'singapore', 'germany', 'uk', 'scotland', 'california', 'georgia', 'maryland', 'missouri', 'newyork', 'texas', 'washington', 'wisconsin', 'norway'];
 
 export function AppProvider({ children }: { children: ReactNode }) {
   const [activeTab, setActiveTab] = useState<TabId>('comparison');

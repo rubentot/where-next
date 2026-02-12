@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import { countries } from '../data/countries';
-import { lanekassen } from '../data/financials';
+import { lanekassen, stipendPerPersonPerYear } from '../data/financials';
 import { parseDurationMonths } from '../utils/duration';
 import type { School } from '../types';
 
@@ -14,6 +14,8 @@ export interface DegreeCostBreakdown {
   lanekassenTotalPerYear: number;
   lanekassenTotalProgram: number;
   lanekassenExtendedPerYear: number;
+  stipendPerYear: number;
+  stipendTotalProgram: number;
   netCostNOK: number;
 }
 
@@ -47,7 +49,11 @@ export function useDegreeCost(school: School): DegreeCostBreakdown {
     const lanekassenTotalPerYear = lanekassen.baseSupportPerYear + tuitionSupportPerYear + extendedPerYear;
     const lanekassenTotalProgram = lanekassenTotalPerYear * durationYears;
 
-    const netCostNOK = totalCostNOK - lanekassenTotalProgram;
+    // Stipend income
+    const stipendPerYear = stipendPerPersonPerYear;
+    const stipendTotalProgram = stipendPerYear * durationYears;
+
+    const netCostNOK = totalCostNOK - lanekassenTotalProgram - stipendTotalProgram;
 
     return {
       durationMonths,
@@ -58,6 +64,8 @@ export function useDegreeCost(school: School): DegreeCostBreakdown {
       lanekassenTotalPerYear,
       lanekassenTotalProgram,
       lanekassenExtendedPerYear: extendedPerYear,
+      stipendPerYear,
+      stipendTotalProgram,
       netCostNOK,
     };
   }, [school, exchangeRate]);

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { schools } from '../data/schools';
 import { countries } from '../data/countries';
-import { getLocation, US_STATE_NAMES } from '../utils/location';
+import { getLocation } from '../utils/location';
 import type { School } from '../types';
 
 export interface StudyTogetherPair {
@@ -31,9 +31,7 @@ export function useStudyTogether() {
     for (const [locKey, entry] of locationMap) {
       if (entry.cybersec.length > 0 && entry.mba.length > 0) {
         const country = countries.find(c => c.id === entry.countryId);
-        const locationLabel = entry.countryId === 'usa'
-          ? (US_STATE_NAMES[locKey] ?? locKey)
-          : (country?.name ?? locKey);
+        const locationLabel = country?.name ?? locKey;
 
         const cheapestCybersec = Math.min(...entry.cybersec.map(s => s.tuitionPerYear));
         const cheapestMba = Math.min(...entry.mba.map(s => s.tuitionPerYear));

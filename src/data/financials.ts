@@ -34,6 +34,9 @@ export const lanekassen = {
   extendedGrantPerYear: 100000,
 };
 
+// Stipend income per person per year (NOK)
+export const stipendPerPersonPerYear = 220000;
+
 // Country tax rates (approximate effective rates)
 export const countryTaxRates: Record<string, number> = {
   spain: 0.25,
@@ -45,6 +48,13 @@ export const countryTaxRates: Record<string, number> = {
   germany: 0.40,
   uk: 0.30,
   scotland: 0.30,
-  usa: 0.28,
+  california: 0.32,
+  georgia: 0.27,
+  maryland: 0.29,
+  missouri: 0.27,
+  newyork: 0.33,
+  texas: 0.22,
+  washington: 0.22,
+  wisconsin: 0.28,
   norway: 0.34,
 };

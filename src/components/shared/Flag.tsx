@@ -21,7 +21,14 @@ const flagMap: Record<string, React.ComponentType<any>> = {
   germany: DE,
   uk: GB,
   scotland: GBSCT,
-  usa: US,
+  california: US,
+  georgia: US,
+  maryland: US,
+  missouri: US,
+  newyork: US,
+  texas: US,
+  washington: US,
+  wisconsin: US,
 };
 
 interface FlagProps {

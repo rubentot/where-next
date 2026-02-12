@@ -9,7 +9,6 @@ export const categories: Category[] = [
   { id: 'language', label: 'Language', icon: 'Languages', description: 'English friendliness, barrier' },
   { id: 'distance', label: 'Distance', icon: 'Plane', description: 'Travel time to Norway' },
   { id: 'safety', label: 'Safety', icon: 'ShieldCheck', description: 'Personal safety & stability' },
-  { id: 'adventure', label: 'Adventure', icon: 'Compass', description: 'Novelty, excitement, exploration' },
 ];
 
 export const defaultWeightsHis: Weights = {
@@ -21,7 +20,6 @@ export const defaultWeightsHis: Weights = {
   language: 6,
   distance: 5,
   safety: 6,
-  adventure: 8,
 };
 
 export const defaultWeightsHers: Weights = {
@@ -33,5 +31,4 @@ export const defaultWeightsHers: Weights = {
   language: 7,
   distance: 7,
   safety: 8,
-  adventure: 6,
 };

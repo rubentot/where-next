@@ -143,6 +143,10 @@ function DegreeCostSection({ school }: { school: School }) {
             <span>-{fmt(cost.lanekassenExtendedPerYear * cost.durationYears)}/total</span>
           </div>
         )}
+        <div className="flex justify-between">
+          <span className="text-gray-500">Stipend income</span>
+          <span className="font-medium text-green-600">-{fmt(cost.stipendTotalProgram)}</span>
+        </div>
         <hr className="border-blue-200" />
         <div className={`flex justify-between font-bold ${cost.netCostNOK <= 0 ? 'text-green-600' : 'text-red-600'}`}>
           <span>Net out-of-pocket</span>

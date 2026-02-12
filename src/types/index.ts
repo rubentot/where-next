@@ -12,7 +12,6 @@ export interface Country {
   distance: DistanceInfo;
   visa: VisaInfo;
   safety: number; // 1-10
-  adventure: number; // 1-10
   scores: CategoryScores;
 }
 
@@ -84,7 +83,6 @@ export interface CategoryScores {
   language: number;
   distance: number;
   safety: number;
-  adventure: number;
 }
 
 export interface Category {
@@ -103,7 +101,6 @@ export interface Weights {
   language: number;
   distance: number;
   safety: number;
-  adventure: number;
 }
 
 export interface FinancialDefaults {

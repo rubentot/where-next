@@ -1,53 +1,18 @@
 import { useState } from 'react';
-import { Shield, Briefcase, MapPin, Heart } from 'lucide-react';
+import { Shield, Briefcase, Heart } from 'lucide-react';
 import { schools } from '../../data/schools';
 import { countries } from '../../data/countries';
 import { SchoolCard } from './SchoolCard';
 import { StudyTogetherView } from './StudyTogetherView';
 import { Flag } from '../shared/Flag';
-import { US_STATE_NAMES } from '../../utils/location';
-import type { School } from '../../types';
 
 type FieldFilter = 'all' | 'cybersec' | 'mba';
 type ViewMode = 'all' | 'together';
 
-function getState(city: string): string {
-  const parts = city.split(', ');
-  return parts.length > 1 ? parts[parts.length - 1].trim() : '';
-}
-
-function groupByState(list: School[]): { state: string; stateName: string; schools: School[] }[] {
-  const map = new Map<string, School[]>();
-  for (const s of list) {
-    const st = getState(s.city);
-    if (!map.has(st)) map.set(st, []);
-    map.get(st)!.push(s);
-  }
-  return [...map.entries()]
-    .sort(([a], [b]) => (US_STATE_NAMES[a] ?? a).localeCompare(US_STATE_NAMES[b] ?? b))
-    .map(([st, schools]) => ({ state: st, stateName: US_STATE_NAMES[st] ?? st, schools }));
-}
-
-function SchoolGrid({ list }: { list: School[] }) {
+function SchoolGrid({ list }: { list: typeof schools }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
       {list.map(s => <SchoolCard key={s.id} school={s} />)}
-    </div>
-  );
-}
-
-function StateGroupedGrid({ list }: { list: School[] }) {
-  const groups = groupByState(list);
-  return (
-    <div className="space-y-6">
-      {groups.map(g => (
-        <div key={g.state}>
-          <h4 className="text-sm font-bold text-gray-600 mb-3 flex items-center gap-1.5 uppercase tracking-wide">
-            <MapPin size={14} /> {g.stateName}
-          </h4>
-          <SchoolGrid list={g.schools} />
-        </div>
-      ))}
     </div>
   );
 }
@@ -64,7 +29,6 @@ export function SchoolsTab() {
   });
 
   const countriesWithSchools = [...new Set(schools.map(s => s.countryId))];
-  const isUSA = countryFilter === 'usa';
 
   const cybersecSchools = filtered.filter(s => s.field === 'cybersec');
   const mbaSchools = filtered.filter(s => s.field === 'mba');
@@ -126,10 +90,7 @@ export function SchoolsTab() {
             <span>{filtered.length} programs</span>
             <span>{cybersecSchools.length} cybersec</span>
             <span>{mbaSchools.length} MBA</span>
-            {isUSA
-              ? <span>{new Set(filtered.map(s => getState(s.city))).size} states</span>
-              : <span>{new Set(filtered.map(s => s.countryId)).size} countries</span>
-            }
+            <span>{new Set(filtered.map(s => s.countryId)).size} countries</span>
           </div>
 
           {/* Display by field when showing all */}
@@ -140,7 +101,7 @@ export function SchoolsTab() {
                   <h3 className="text-md font-bold text-gray-800 mb-3 flex items-center gap-2">
                     <Shield size={18} className="text-primary-600" /> Ruben — Cybersecurity Programs
                   </h3>
-                  {isUSA ? <StateGroupedGrid list={cybersecSchools} /> : <SchoolGrid list={cybersecSchools} />}
+                  <SchoolGrid list={cybersecSchools} />
                 </div>
               )}
               {mbaSchools.length > 0 && (
@@ -148,12 +109,12 @@ export function SchoolsTab() {
                   <h3 className="text-md font-bold text-gray-800 mb-3 flex items-center gap-2">
                     <Briefcase size={18} className="text-accent-600" /> Charlotte — MBA Programs
                   </h3>
-                  {isUSA ? <StateGroupedGrid list={mbaSchools} /> : <SchoolGrid list={mbaSchools} />}
+                  <SchoolGrid list={mbaSchools} />
                 </div>
               )}
             </>
           ) : (
-            isUSA ? <StateGroupedGrid list={filtered} /> : <SchoolGrid list={filtered} />
+            <SchoolGrid list={filtered} />
           )}
 
           {filtered.length === 0 && (

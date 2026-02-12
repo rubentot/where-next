@@ -123,20 +123,12 @@ export function CountryCard({ country }: CountryCardProps) {
           </div>
         </Section>
 
-        {/* Safety & Adventure */}
-        <div className="flex gap-4">
-          <div className="flex-1">
-            <div className="flex items-center gap-1 text-sm font-medium text-gray-700 mb-1">
-              <Shield size={14} /> Safety
-            </div>
-            <ScoreBar value={country.safety} color="bg-success-500" />
+        {/* Safety */}
+        <div>
+          <div className="flex items-center gap-1 text-sm font-medium text-gray-700 mb-1">
+            <Shield size={14} /> Safety
           </div>
-          <div className="flex-1">
-            <div className="flex items-center gap-1 text-sm font-medium text-gray-700 mb-1">
-              <Globe size={14} /> Adventure
-            </div>
-            <ScoreBar value={country.adventure} color="bg-warning-500" />
-          </div>
+          <ScoreBar value={country.safety} color="bg-success-500" />
         </div>
 
         {/* Tuition */}
