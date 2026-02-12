@@ -7,9 +7,8 @@ import SG from 'country-flag-icons/react/3x2/SG';
 import NO from 'country-flag-icons/react/3x2/NO';
 import DE from 'country-flag-icons/react/3x2/DE';
 import US from 'country-flag-icons/react/3x2/US';
-import type { ComponentType, SVGProps } from 'react';
-
-const flagMap: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const flagMap: Record<string, React.ComponentType<any>> = {
   spain: ES,
   portugal: PT,
   netherlands: NL,
