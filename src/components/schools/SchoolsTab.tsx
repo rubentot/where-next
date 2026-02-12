@@ -73,7 +73,7 @@ export function SchoolsTab() {
     <div className="space-y-6 animate-fade-in">
       <div>
         <h2 className="text-lg font-bold text-gray-900">Schools to Apply For</h2>
-        <p className="text-sm text-gray-500">Programs for both of you across all countries — all Lanekassen-approved</p>
+        <p className="text-sm text-gray-500">Alle skolene er godkjent av Lanekassen</p>
       </div>
 
       {/* View mode toggle */}
